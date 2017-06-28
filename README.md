@@ -1,1 +1,1 @@
-# hight_crypto_core_on_zybo
+# microblaze_based_hight_crypto_soc
