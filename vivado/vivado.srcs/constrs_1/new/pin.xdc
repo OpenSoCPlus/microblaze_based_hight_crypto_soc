@@ -1,0 +1,8 @@
+set_property IOSTANDARD LVCMOS18 [get_ports system_reset]
+set_property IOSTANDARD LVCMOS18 [get_ports uart_rtl_rxd]
+set_property IOSTANDARD LVCMOS18 [get_ports uart_rtl_txd]
+set_property IOSTANDARD DIFF_HSTL_II_18 [get_ports diff_system_clock_clk_p]
+set_property PACKAGE_PIN T19 [get_ports system_reset]
+set_property PACKAGE_PIN P16 [get_ports uart_rtl_rxd]
+set_property PACKAGE_PIN P15 [get_ports uart_rtl_txd]
+set_property PACKAGE_PIN N20 [get_ports diff_system_clock_clk_p]

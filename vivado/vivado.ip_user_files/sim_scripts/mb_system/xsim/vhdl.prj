@@ -1,0 +1,11 @@
+vhdl xil_defaultlib "../../../bd/mb_system/ip/mb_system_microblaze_0_0/sim/mb_system_microblaze_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/mb_system/ip/mb_system_axi_uartlite_0_0/sim/mb_system_axi_uartlite_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/mb_system/ip/mb_system_dlmb_v10_2/sim/mb_system_dlmb_v10_2.vhd" 
+vhdl xil_defaultlib "../../../bd/mb_system/ip/mb_system_ilmb_v10_2/sim/mb_system_ilmb_v10_2.vhd" 
+vhdl xil_defaultlib "../../../bd/mb_system/ip/mb_system_dlmb_bram_if_cntlr_2/sim/mb_system_dlmb_bram_if_cntlr_2.vhd" 
+vhdl xil_defaultlib "../../../bd/mb_system/ip/mb_system_ilmb_bram_if_cntlr_2/sim/mb_system_ilmb_bram_if_cntlr_2.vhd" 
+vhdl xil_defaultlib "../../../bd/mb_system/ip/mb_system_microblaze_0_axi_intc_1/sim/mb_system_microblaze_0_axi_intc_1.vhd" 
+vhdl xil_defaultlib "../../../bd/mb_system/ip/mb_system_mdm_1_2/sim/mb_system_mdm_1_2.vhd" 
+vhdl xil_defaultlib "../../../bd/mb_system/ip/mb_system_rst_clk_wiz_1_100M_0/sim/mb_system_rst_clk_wiz_1_100M_0.vhd" 
+
+nosort

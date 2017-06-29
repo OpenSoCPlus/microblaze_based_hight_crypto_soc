@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6715000000fs"></ZoomStartTime>
+      <ZoomEndTime time="11305000001fs"></ZoomEndTime>
+      <Cursor1Time time="8085000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="64"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="69" />
+   <wave_markers>
+      <marker time="7075000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/SYSTEM_HP_CLK" type="array">
+      <obj_property name="ElementShortName">SYSTEM_HP_CLK[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SYSTEM_HP_CLK[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider266">
+      <obj_property name="label">TOP I/O</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/system_reset" type="logic">
+      <obj_property name="ElementShortName">system_reset</obj_property>
+      <obj_property name="ObjectShortName">system_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/diff_system_clock_clk_n" type="logic">
+      <obj_property name="ElementShortName">diff_system_clock_clk_n</obj_property>
+      <obj_property name="ObjectShortName">diff_system_clock_clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/diff_system_clock_clk_p" type="logic">
+      <obj_property name="ElementShortName">diff_system_clock_clk_p</obj_property>
+      <obj_property name="ObjectShortName">diff_system_clock_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uart_rtl_rxd" type="logic">
+      <obj_property name="ElementShortName">uart_rtl_rxd</obj_property>
+      <obj_property name="ObjectShortName">uart_rtl_rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uart_rtl_txd" type="logic">
+      <obj_property name="ElementShortName">uart_rtl_txd</obj_property>
+      <obj_property name="ObjectShortName">uart_rtl_txd</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider289">
+      <obj_property name="label">HIGHT AXI4-LITE I/F</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_aclk" type="logic">
+      <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_araddr" type="array">
+      <obj_property name="ElementShortName">s_axi_araddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[5:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_aresetn" type="logic">
+      <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_arprot" type="array">
+      <obj_property name="ElementShortName">s_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arprot[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_arready" type="logic">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">s_axi_awaddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[5:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_awprot" type="array">
+      <obj_property name="ElementShortName">s_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awprot[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_awready" type="logic">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_bready" type="logic">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_bresp" type="array">
+      <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_rdata" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_rready" type="logic">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_rresp" type="array">
+      <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_wdata" type="array">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_wready" type="logic">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_wstrb" type="array">
+      <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/s_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider267">
+      <obj_property name="label">HIGHT registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg0_key0" type="array">
+      <obj_property name="ElementShortName">slv_reg0_key0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0_key0[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg1_key1" type="array">
+      <obj_property name="ElementShortName">slv_reg1_key1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg1_key1[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg2_key2" type="array">
+      <obj_property name="ElementShortName">slv_reg2_key2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2_key2[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg3_key3" type="array">
+      <obj_property name="ElementShortName">slv_reg3_key3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg3_key3[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg4_din0" type="array">
+      <obj_property name="ElementShortName">slv_reg4_din0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg4_din0[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg5_din1" type="array">
+      <obj_property name="ElementShortName">slv_reg5_din1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg5_din1[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/w_hight_text_out" type="array">
+      <obj_property name="ElementShortName">w_hight_text_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">w_hight_text_out[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg8_ctrl" type="array">
+      <obj_property name="ElementShortName">slv_reg8_ctrl[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg8_ctrl[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/w_hight_text_val_stb" type="logic">
+      <obj_property name="ElementShortName">w_hight_text_val_stb</obj_property>
+      <obj_property name="ObjectShortName">w_hight_text_val_stb</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/w_hight_o_rdy" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">w_hight_o_rdy</obj_property>
+      <obj_property name="ObjectShortName">w_hight_o_rdy</obj_property>
+      <obj_property name="label">slv_reg9_status_0</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider290">
+      <obj_property name="label">HIGHT core wrapper</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/I_RST_N" type="logic">
+      <obj_property name="ElementShortName">I_RST_N</obj_property>
+      <obj_property name="ObjectShortName">I_RST_N</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/I_CLK" type="logic">
+      <obj_property name="ElementShortName">I_CLK</obj_property>
+      <obj_property name="ObjectShortName">I_CLK</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/I_MK" type="array">
+      <obj_property name="ElementShortName">I_MK[127:0]</obj_property>
+      <obj_property name="ObjectShortName">I_MK[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/I_OP" type="logic">
+      <obj_property name="ElementShortName">I_OP</obj_property>
+      <obj_property name="ObjectShortName">I_OP</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/I_TEXT_VAL" type="logic">
+      <obj_property name="ElementShortName">I_TEXT_VAL</obj_property>
+      <obj_property name="ObjectShortName">I_TEXT_VAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/I_TEXT_IN" type="array">
+      <obj_property name="ElementShortName">I_TEXT_IN[63:0]</obj_property>
+      <obj_property name="ObjectShortName">I_TEXT_IN[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/O_TEXT_DONE" type="logic">
+      <obj_property name="ElementShortName">O_TEXT_DONE</obj_property>
+      <obj_property name="ObjectShortName">O_TEXT_DONE</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/O_TEXT_OUT" type="array">
+      <obj_property name="ElementShortName">O_TEXT_OUT[63:0]</obj_property>
+      <obj_property name="ObjectShortName">O_TEXT_OUT[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/O_RDY" type="logic">
+      <obj_property name="ElementShortName">O_RDY</obj_property>
+      <obj_property name="ObjectShortName">O_RDY</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/u_CONTROL/r_pstate" type="array">
+      <obj_property name="ElementShortName">r_pstate[5:0]</obj_property>
+      <obj_property name="ObjectShortName">r_pstate[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider534">
+      <obj_property name="label">HIGHT CORE TOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/i_mk_rdy" type="logic">
+      <obj_property name="ElementShortName">i_mk_rdy</obj_property>
+      <obj_property name="ObjectShortName">i_mk_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/i_mk" type="array">
+      <obj_property name="ElementShortName">i_mk[127:0]</obj_property>
+      <obj_property name="ObjectShortName">i_mk[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/i_post_rdy" type="logic">
+      <obj_property name="ElementShortName">i_post_rdy</obj_property>
+      <obj_property name="ObjectShortName">i_post_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/i_op" type="logic">
+      <obj_property name="ElementShortName">i_op</obj_property>
+      <obj_property name="ObjectShortName">i_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/i_text_val" type="logic">
+      <obj_property name="ElementShortName">i_text_val</obj_property>
+      <obj_property name="ObjectShortName">i_text_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/i_text_in" type="array">
+      <obj_property name="ElementShortName">i_text_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_text_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/o_text_done" type="logic">
+      <obj_property name="ElementShortName">o_text_done</obj_property>
+      <obj_property name="ObjectShortName">o_text_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/o_text_out" type="array">
+      <obj_property name="ElementShortName">o_text_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_text_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/o_rdy" type="logic">
+      <obj_property name="ElementShortName">o_rdy</obj_property>
+      <obj_property name="ObjectShortName">o_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/w_rnd_key" type="array">
+      <obj_property name="ElementShortName">w_rnd_key[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_rnd_key[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/w_xf_sel" type="array">
+      <obj_property name="ElementShortName">w_xf_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">w_xf_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/w_rf_final" type="logic">
+      <obj_property name="ElementShortName">w_rf_final</obj_property>
+      <obj_property name="ObjectShortName">w_rf_final</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/w_key_sel" type="logic">
+      <obj_property name="ElementShortName">w_key_sel</obj_property>
+      <obj_property name="ObjectShortName">w_key_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/w_rnd_idx" type="array">
+      <obj_property name="ElementShortName">w_rnd_idx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_rnd_idx[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TESTBENCH_MICROBLAZE_BASED_HIGHT_CRYPTO_SOC/uut/mb_system_i/HIGHT_TOP_AXI4_LITE_0/inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/u_HIGHT_CORE_TOP_WRAPPER/u_HIGHT_CORE_TOP/w_wf_post_pre" type="logic">
+      <obj_property name="ElementShortName">w_wf_post_pre</obj_property>
+      <obj_property name="ObjectShortName">w_wf_post_pre</obj_property>
+   </wvobject>
+</wave_config>

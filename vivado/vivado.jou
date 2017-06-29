@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 29 21:49:16 2017
+# Process ID: 16020
+# Current directory: D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6520 D:\Project\OSP\microblaze_based_hight_crypto_soc\vivado\vivado.xpr
+# Log file: D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.log
+# Journal file: D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.xpr
+reset_run synth_1
+reset_run
+reset_simulation
+open_bd_design {D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/mb_system.bd}
+close_bd_design [get_bd_designs mb_system]
+close_project

@@ -1,0 +1,578 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 29 16:14:58 2017
+# Process ID: 8968
+# Current directory: D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.runs/mb_system_HIGHT_TOP_AXI4_LITE_0_0_synth_1
+# Command line: vivado.exe -log mb_system_HIGHT_TOP_AXI4_LITE_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_system_HIGHT_TOP_AXI4_LITE_0_0.tcl
+# Log file: D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.runs/mb_system_HIGHT_TOP_AXI4_LITE_0_0_synth_1/mb_system_HIGHT_TOP_AXI4_LITE_0_0.vds
+# Journal file: D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.runs/mb_system_HIGHT_TOP_AXI4_LITE_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mb_system_HIGHT_TOP_AXI4_LITE_0_0.tcl -notrace
+Command: synth_design -top mb_system_HIGHT_TOP_AXI4_LITE_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6380 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 352.723 ; gain = 142.305
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mb_system_HIGHT_TOP_AXI4_LITE_0_0' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ip/mb_system_HIGHT_TOP_AXI4_LITE_0_0/synth/mb_system_HIGHT_TOP_AXI4_LITE_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'HIGHT_TOP_AXI4_LITE_v1_0' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/hdl/HIGHT_TOP_AXI4_LITE_v1_0.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'HIGHT_TOP_AXI4_LITE_v1_0_S_AXI' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/hdl/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'HIGHT_CORE_TOP_WRAPPER' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/HIGHT_CORE_TOP_WRAPPER.v:3]
+INFO: [Synth 8-638] synthesizing module 'HIGHT_CORE_TOP' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/HIGHT_CORE_TOP.v:43]
+INFO: [Synth 8-638] synthesizing module 'CRYPTO_PATH' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/CRYPTO_PATH.v:43]
+INFO: [Synth 8-638] synthesizing module 'WF' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/WF.v:43]
+INFO: [Synth 8-256] done synthesizing module 'WF' (1#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/WF.v:43]
+INFO: [Synth 8-638] synthesizing module 'RF' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/RF.v:43]
+INFO: [Synth 8-256] done synthesizing module 'RF' (2#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/RF.v:43]
+INFO: [Synth 8-256] done synthesizing module 'CRYPTO_PATH' (3#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/CRYPTO_PATH.v:43]
+INFO: [Synth 8-638] synthesizing module 'KEY_SCHED' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/KEY_SCHED.v:43]
+INFO: [Synth 8-638] synthesizing module 'WKG' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/WKG.v:44]
+INFO: [Synth 8-256] done synthesizing module 'WKG' (4#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/WKG.v:44]
+INFO: [Synth 8-638] synthesizing module 'SKG' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/SKG.v:43]
+INFO: [Synth 8-256] done synthesizing module 'SKG' (5#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/SKG.v:43]
+INFO: [Synth 8-256] done synthesizing module 'KEY_SCHED' (6#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/KEY_SCHED.v:43]
+INFO: [Synth 8-638] synthesizing module 'CONTROL' [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/CONTROL.v:43]
+	Parameter S_IDLE bound to: 6'b110000 
+	Parameter S_KEY_CONFIG bound to: 6'b100000 
+	Parameter S_RDY bound to: 6'b000000 
+	Parameter S_WF1 bound to: 6'b000001 
+	Parameter S_RF1 bound to: 6'b000010 
+	Parameter S_RF2 bound to: 6'b000011 
+	Parameter S_RF3 bound to: 6'b000100 
+	Parameter S_RF4 bound to: 6'b000101 
+	Parameter S_RF5 bound to: 6'b000110 
+	Parameter S_RF6 bound to: 6'b000111 
+	Parameter S_RF7 bound to: 6'b001000 
+	Parameter S_RF8 bound to: 6'b001001 
+	Parameter S_RF9 bound to: 6'b001010 
+	Parameter S_RF10 bound to: 6'b001011 
+	Parameter S_RF11 bound to: 6'b001100 
+	Parameter S_RF12 bound to: 6'b001101 
+	Parameter S_RF13 bound to: 6'b001110 
+	Parameter S_RF14 bound to: 6'b001111 
+	Parameter S_RF15 bound to: 6'b010000 
+	Parameter S_RF16 bound to: 6'b010001 
+	Parameter S_RF17 bound to: 6'b010010 
+	Parameter S_RF18 bound to: 6'b010011 
+	Parameter S_RF19 bound to: 6'b010100 
+	Parameter S_RF20 bound to: 6'b010101 
+	Parameter S_RF21 bound to: 6'b010110 
+	Parameter S_RF22 bound to: 6'b010111 
+	Parameter S_RF23 bound to: 6'b011000 
+	Parameter S_RF24 bound to: 6'b011001 
+	Parameter S_RF25 bound to: 6'b011010 
+	Parameter S_RF26 bound to: 6'b011011 
+	Parameter S_RF27 bound to: 6'b011100 
+	Parameter S_RF28 bound to: 6'b011101 
+	Parameter S_RF29 bound to: 6'b011110 
+	Parameter S_RF30 bound to: 6'b011111 
+	Parameter S_RF31 bound to: 6'b111111 
+	Parameter S_RF32 bound to: 6'b111110 
+	Parameter S_DONE bound to: 6'b111100 
+	Parameter S_ERROR bound to: 6'b101010 
+INFO: [Synth 8-256] done synthesizing module 'CONTROL' (7#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/CONTROL.v:43]
+INFO: [Synth 8-256] done synthesizing module 'HIGHT_CORE_TOP' (8#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/HIGHT_CORE_TOP.v:43]
+INFO: [Synth 8-256] done synthesizing module 'HIGHT_CORE_TOP_WRAPPER' (9#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/HIGHT_CORE_TOP_WRAPPER.v:3]
+INFO: [Synth 8-256] done synthesizing module 'HIGHT_TOP_AXI4_LITE_v1_0_S_AXI' (10#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/hdl/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'HIGHT_TOP_AXI4_LITE_v1_0' (11#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/hdl/HIGHT_TOP_AXI4_LITE_v1_0.v:4]
+INFO: [Synth 8-256] done synthesizing module 'mb_system_HIGHT_TOP_AXI4_LITE_0_0' (12#1) [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ip/mb_system_HIGHT_TOP_AXI4_LITE_0_0/synth/mb_system_HIGHT_TOP_AXI4_LITE_0_0.v:57]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 391.027 ; gain = 180.609
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 391.027 ; gain = 180.609
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 684.629 ; gain = 0.082
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 684.629 ; gain = 474.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 684.629 ; gain = 474.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 684.629 ; gain = 474.211
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/WF.v:115]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ipshared/5393/src/WF.v:110]
+INFO: [Synth 8-5544] ROM "r_xf0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'r_pstate_reg' in module 'CONTROL'
+INFO: [Synth 8-5546] ROM "o_xf_sel2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                           000001 |                           110000
+            S_KEY_CONFIG |                           000011 |                           100000
+                   S_RDY |                           000010 |                           000000
+                   S_WF1 |                           000100 |                           000001
+                   S_RF1 |                           000101 |                           000010
+                   S_RF2 |                           000110 |                           000011
+                   S_RF3 |                           000111 |                           000100
+                   S_RF4 |                           001000 |                           000101
+                   S_RF5 |                           001001 |                           000110
+                   S_RF6 |                           001010 |                           000111
+                   S_RF7 |                           001011 |                           001000
+                   S_RF8 |                           001100 |                           001001
+                   S_RF9 |                           001101 |                           001010
+                  S_RF10 |                           001110 |                           001011
+                  S_RF11 |                           001111 |                           001100
+                  S_RF12 |                           010000 |                           001101
+                  S_RF13 |                           010001 |                           001110
+                  S_RF14 |                           010010 |                           001111
+                  S_RF15 |                           010011 |                           010000
+                  S_RF16 |                           010100 |                           010001
+                  S_RF17 |                           010101 |                           010010
+                  S_RF18 |                           010110 |                           010011
+                  S_RF19 |                           010111 |                           010100
+                  S_RF20 |                           011000 |                           010101
+                  S_RF21 |                           011001 |                           010110
+                  S_RF22 |                           011010 |                           010111
+                  S_RF23 |                           011011 |                           011000
+                  S_RF24 |                           011100 |                           011001
+                  S_RF25 |                           011101 |                           011010
+                  S_RF26 |                           011110 |                           011011
+                  S_RF27 |                           011111 |                           011100
+                  S_RF28 |                           100000 |                           011101
+                  S_RF29 |                           100001 |                           011110
+                  S_RF30 |                           100010 |                           011111
+                  S_RF31 |                           100011 |                           111111
+                  S_RF32 |                           100100 |                           111110
+                  S_DONE |                           100101 |                           111100
+                 S_ERROR |                           000000 |                           101010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_pstate_reg' using encoding 'sequential' in module 'CONTROL'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 684.629 ; gain = 474.211
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 10    
++---XORs : 
+	   2 Input      8 Bit         XORs := 10    
+	   3 Input      8 Bit         XORs := 4     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 9     
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 7     
+	   8 Input     32 Bit        Muxes := 7     
+	   2 Input      8 Bit        Muxes := 34    
+	  38 Input      6 Bit        Muxes := 1     
+	  79 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module WF 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
++---XORs : 
+	   2 Input      8 Bit         XORs := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+Module RF 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 6     
++---XORs : 
+	   3 Input      8 Bit         XORs := 4     
+	   2 Input      8 Bit         XORs := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 20    
+Module CRYPTO_PATH 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module WKG 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+Module SKG 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 1     
+Module KEY_SCHED 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+Module CONTROL 
+Detailed RTL Component Info : 
++---Muxes : 
+	  38 Input      6 Bit        Muxes := 1     
+	  79 Input      6 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module HIGHT_TOP_AXI4_LITE_v1_0_S_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 9     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   8 Input     32 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design HIGHT_TOP_AXI4_LITE_v1_0_S_AXI has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[0]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[1]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[2]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[3]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[4]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[5]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[6]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[7]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[8]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[9]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[10]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[11]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[12]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[13]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[14]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[15]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[16]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[16]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[17]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[18]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[19]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[19]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[20]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[20]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[21]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[21]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[22]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[23]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[24]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[24]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[25]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[26]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[26]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[27]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[27]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[28]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[28]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[29]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[29]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[30]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[31] )
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3332] Sequential element (inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module mb_system_HIGHT_TOP_AXI4_LITE_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module mb_system_HIGHT_TOP_AXI4_LITE_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module mb_system_HIGHT_TOP_AXI4_LITE_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/slv_reg9_status_reg[31]) is unused and will be removed from module mb_system_HIGHT_TOP_AXI4_LITE_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module mb_system_HIGHT_TOP_AXI4_LITE_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module mb_system_HIGHT_TOP_AXI4_LITE_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module mb_system_HIGHT_TOP_AXI4_LITE_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 684.629 ; gain = 474.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-----------------------+------------------------------------------+---------------+----------------+
+|Module Name            | RTL Object                               | Depth x Width | Implemented As | 
++-----------------------+------------------------------------------+---------------+----------------+
+|SKG                    | w_d0x                                    | 32x7          | LUT            | 
+|SKG                    | w_d3x                                    | 32x7          | LUT            | 
+|SKG                    | w_d1x                                    | 32x7          | LUT            | 
+|SKG                    | w_d2x                                    | 32x7          | LUT            | 
+|HIGHT_CORE_TOP_WRAPPER | u_HIGHT_CORE_TOP/u_KEY_SCHED/u_SKG/w_d3x | 32x7          | LUT            | 
+|HIGHT_CORE_TOP_WRAPPER | u_HIGHT_CORE_TOP/u_KEY_SCHED/u_SKG/w_d0x | 32x7          | LUT            | 
+|HIGHT_CORE_TOP_WRAPPER | u_HIGHT_CORE_TOP/u_KEY_SCHED/u_SKG/w_d2x | 32x7          | LUT            | 
+|HIGHT_CORE_TOP_WRAPPER | u_HIGHT_CORE_TOP/u_KEY_SCHED/u_SKG/w_d1x | 32x7          | LUT            | 
++-----------------------+------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 684.629 ; gain = 474.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 684.629 ; gain = 474.211
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 691.641 ; gain = 481.223
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 691.641 ; gain = 481.223
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 691.641 ; gain = 481.223
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 691.641 ; gain = 481.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 691.641 ; gain = 481.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 691.641 ; gain = 481.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 691.641 ; gain = 481.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    28|
+|2     |LUT1   |     3|
+|3     |LUT2   |    18|
+|4     |LUT3   |    89|
+|5     |LUT4   |    66|
+|6     |LUT5   |   122|
+|7     |LUT6   |   344|
+|8     |MUXF7  |    32|
+|9     |FDCE   |   101|
+|10    |FDPE   |     1|
+|11    |FDRE   |   270|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------------------+-------------------------------+------+
+|      |Instance                                |Module                         |Cells |
++------+----------------------------------------+-------------------------------+------+
+|1     |top                                     |                               |  1074|
+|2     |  inst                                  |HIGHT_TOP_AXI4_LITE_v1_0       |  1074|
+|3     |    HIGHT_TOP_AXI4_LITE_v1_0_S_AXI_inst |HIGHT_TOP_AXI4_LITE_v1_0_S_AXI |  1072|
+|4     |      u_HIGHT_CORE_TOP_WRAPPER          |HIGHT_CORE_TOP_WRAPPER         |   735|
+|5     |        u_HIGHT_CORE_TOP                |HIGHT_CORE_TOP                 |   731|
+|6     |          u_CONTROL                     |CONTROL                        |   289|
+|7     |          u_CRYPTO_PATH                 |CRYPTO_PATH                    |   322|
+|8     |            u_RF                        |RF                             |    16|
+|9     |          u_KEY_SCHED                   |KEY_SCHED                      |   120|
+|10    |            u_SKG                       |SKG                            |    28|
++------+----------------------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 691.641 ; gain = 481.223
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 691.641 ; gain = 121.824
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 691.641 ; gain = 481.223
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+122 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 691.641 ; gain = 415.426
+INFO: [Common 17-1381] The checkpoint 'D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.runs/mb_system_HIGHT_TOP_AXI4_LITE_0_0_synth_1/mb_system_HIGHT_TOP_AXI4_LITE_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP d:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.srcs/sources_1/bd/mb_system/ip/mb_system_HIGHT_TOP_AXI4_LITE_0_0/mb_system_HIGHT_TOP_AXI4_LITE_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 9 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/Project/OSP/microblaze_based_hight_crypto_soc/vivado/vivado.runs/mb_system_HIGHT_TOP_AXI4_LITE_0_0_synth_1/mb_system_HIGHT_TOP_AXI4_LITE_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 691.641 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 29 16:15:55 2017...
