@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER HIGHT_TOP_AXI4_LITE
+	OPTION supported_peripherals = (HIGHT_TOP_AXI4_LITE);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = HIGHT_TOP_AXI4_LITE;
+END DRIVER
