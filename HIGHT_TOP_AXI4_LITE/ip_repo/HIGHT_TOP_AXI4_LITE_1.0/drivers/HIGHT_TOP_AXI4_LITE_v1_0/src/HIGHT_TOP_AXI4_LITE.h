@@ -6,6 +6,7 @@
 /****************** Include Files ********************/
 #include "xil_types.h"
 #include "xstatus.h"
+#include "xil_io.h"
 
 #define HIGHT_TOP_AXI4_LITE_S_AXI_SLV_REG0_OFFSET 0
 #define HIGHT_TOP_AXI4_LITE_S_AXI_SLV_REG1_OFFSET 4
@@ -80,6 +81,21 @@
  * @note    Self test may fail if data memory and device are not on the same bus.
  *
  */
-XStatus HIGHT_TOP_AXI4_LITE_Reg_SelfTest(void * baseaddr_p);
+//XStatus HIGHT_TOP_AXI4_LITE_Reg_SelfTest(void * baseaddr_p);
+
+/*********************** Register control level ******************************/
+
+void HIGHT_TOP_setKey(u32 key0, u32 key1, u32 key2, u32 key3);
+void HIGHT_TOP_setInputData(u32 data0, u32 data1);
+void HIGHT_TOP_setControl(u32 ctrl); // [1]:operation(0:encryption, 1:decryption), [0]:start
+
+void HIGHT_TOP_getOutputData(u32 data[]);
+u32 HIGHT_TOP_getStatus();
+
+/*********************** API Level ******************************/
+
+void HIGHT_TOP_doEncyption(u32 key[], u32 plainData[], u32 encryptedData[]);
+void HIGHT_TOP_doDecryption(u32 key[], u32 encryptedData[], u32 plainData[]);
+
 
 #endif // HIGHT_TOP_AXI4_LITE_H
